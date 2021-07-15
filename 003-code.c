@@ -1,6 +1,7 @@
 //代码显示
 //打印小飞机
-/我的代码/#include<stdio.h>
+//我的代码
+#include<stdio.h>
 int main()
 {
 
