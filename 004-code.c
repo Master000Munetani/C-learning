@@ -1,27 +1,28 @@
-01// #include<stdio.h>  简单计算
-// int main()
-// {
-//   int a,b;
-//   b=3;
-//   a=b;
-//   b*=2;
-//   printf("b=%d\n",b);
-//   printf("a=%d\n",a);
+01#include<stdio.h>
+int main()
+{
+  int a,b;
+  b=3;
+  a=b;
+  b*=2;
+  printf("b=%d\n",b);
+  printf("a=%d\n",a);
 
-//   return 0;
-// }
+  return 0;
+}
 
-02// #include<stdio.h>  简单计算
-// int main()
-// {
-//   int r;
-//   double c,s;
-//   r=5;
-//   c=(2*3.14*r);
-//   s=(3.14*r*r);
-//   printf("圆的周长为：%.2f,圆的面积为：%.2f\n",c,s);
-//   return 0;
-// }
+
+02#include<stdio.h>
+int main()
+{
+  int r;
+  double c,s;
+  r=5;
+  c=(2*3.14*r);
+  s=(3.14*r*r);
+  printf("圆的周长为：%.2f,圆的面积为：%.2f\n",c,s);
+  return 0;
+}
 
 03 #include <stdio.h>
 
