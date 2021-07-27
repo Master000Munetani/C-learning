@@ -1,0 +1,22 @@
+1、关于sizeof（）
+1）sizeof（）是关键字而不是函数；
+2）sizeof（）的括号中可以是：变量名、类型名、变量的值
+  如：int a=123;
+     sizeof(a)  sizeof(123)  sizeof(int)
+     sizeof a   sizeof 123
+     均是成立的，且均表示变量a的长度。（注意：当通过变量类型名来写的时候，必须加上括号！其他两种可以不加。）
+     
+2、[signed] :限定可加符号位（使变量可以存放负数）
+   
+  unsigned :限定不可加符号位（只可以表示正数或0）
+  
+  若在程序中想要表示更大的整数，则必须使用unsigned限定，否则会显示负数；
+  （如 unsigned long long int a;）
+
+3、有关printf的其他相关用法，详见速查手册
+
+4、函数 pow（a,b）======来求a的b次方！
+   使用时必须加上头文件 : #include <math.h>
+   
+   
+  其余见笔记
